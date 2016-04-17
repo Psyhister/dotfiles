@@ -16,6 +16,9 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'fxn/vim-monochrome'
 Plug 'chriskempson/base16-vim'
 
+" Airline themes
+Plug 'vim-airline/vim-airline-themes'
+
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }

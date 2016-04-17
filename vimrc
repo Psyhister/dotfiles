@@ -164,7 +164,7 @@ augroup NERDTreeCMD
 	autocmd VimEnter * NERDTree
 	autocmd VimEnter * wincmd p
 	autocmd StdinReadPre * let s:std_in = 1
-	autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+	autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 augroup END
 map <C-n> :NERDTreeToggle<CR>
 
